@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: basharalli/flask-app:latest
+          image: basharalli/flask-app:1.2
           ports:
             - containerPort: 5005
         - name: nginx
