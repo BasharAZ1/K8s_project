@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #232ae3;
+    color: white;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+}
+.section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.user-data {
+    display: none;
+    overflow-x: auto;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.user-data table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.user-data th, .user-data td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+.user-data th {
+    background-color: #f2f2f2;
+}

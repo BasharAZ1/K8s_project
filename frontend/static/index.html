@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple App</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h1>Enter User ID</h1>
+            <form id="userForm">
+                <label for="user_id">User ID:</label>
+                <input type="text" id="user_id" name="user_id" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="result" class="user-data" style="display: none;"></div>
+        </div>
+        <div class="section">
+            <h1>Search by Monthly Charges</h1>
+            <form id="chargeForm">
+                <label for="monthly_charges">Monthly Charges above:</label>
+                <input type="number" id="monthly_charges" name="monthly_charges" required>
+                <button type="submit">Search</button>
+            </form>
+            <div id="highChargesResult" class="user-data" style="display: none;"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
